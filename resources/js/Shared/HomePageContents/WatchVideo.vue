@@ -18,7 +18,7 @@
 
             <iframe
                 class="mx-auto rounded-xl shadow-xl w-full max-w-xl h-56 md:h-80 shadow-black mb-20 border-2 border-gray-200"
-                src="https://www.youtube.com/embed/hxwlpMqABsU" allowfullscreen>
+                src="https://www.youtube.com/embed/SeN4U_g3NN8" allowfullscreen>
             </iframe>
         </div>
     </section>
