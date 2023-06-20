@@ -1,6 +1,6 @@
 <template>
-    <Header :projectName="'LVTShop'" :projectDocsLink="'/docs'"
-        :projectGithubRepo="'https://github.com/LaraVueTail/ecommerce-laravel-vue-tailwind-inertia-VILT-Stack'"></Header>
+    <Header :projectName="'LVTBlog'" :projectDocsLink="'/docs'"
+        :projectGithubRepo="'https://github.com/LaraVueTail/blog-laravel-vue-tailwind-inertia-VILT-Stack.git'"></Header>
     <div class="max-w-4xl mx-auto">
         <slot></slot>
 

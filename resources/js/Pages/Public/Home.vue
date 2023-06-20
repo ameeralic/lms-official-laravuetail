@@ -1,8 +1,8 @@
 <template>
-    <Hero :projectName="'Ecommerce Web Application'"
-        :projectDescription="'An Open source(MIT) ecommerce web application with stripe payment gateway built with VILT Stack.'"
+    <Hero :projectName="'Blog Web Application'"
+        :projectDescription="'An Open source(MIT) blog web application built with VILT Stack.'"
         :whatsNewText="'New LMS Project Available in LaraVueTail'" :whatsNewLink="'https://laravuetail.com/'"
-        :projectGitRepoLink="'https://github.com/LaraVueTail/ecommerce-laravel-vue-tailwind-inertia-VILT-Stack'">
+        :projectGitRepoLink="'https://github.com/LaraVueTail/blog-laravel-vue-tailwind-inertia-VILT-Stack.git'">
     </Hero>
     <WatchVideoVue></WatchVideoVue>
     <WhatIsThis></WhatIsThis>

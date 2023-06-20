@@ -24,7 +24,7 @@
                     </h1>
                 </div>
                 <div class="border-l pl-10">
-                    <img :src="$page.props.app_url + 'storage/images/ecommerce-logo.svg'" alt=""
+                    <img :src="$page.props.app_url + 'storage/images/blog-logo.svg'" alt=""
                         class="h-10 w-10 md:h-18 md:w-18 mx-auto" />
                     <h1 class="text-sm tracking-tight leading-none text-gray-200 md:text-sm py-1 font-medium">
                         LVTShop

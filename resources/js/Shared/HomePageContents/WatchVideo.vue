@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="max-w-screen-lg mx-auto py-3 px-4 grid justify-items-center">
-            <a href="http://ecommerce-demo.laravuetail.com" target="_blank"
+            <a href="http://blog-demo.laravuetail.com" target="_blank"
                 class="flex items-center mb-4 text-sm font-medium tracking-tight leading-none text-gray-100 md:text-sm lg:text-sm text-center hover:text-[#38bdf8] cursor-pointer hover:underline">
                 <h1>
                     Visit Demo Website

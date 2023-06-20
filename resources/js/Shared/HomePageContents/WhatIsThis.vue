@@ -75,7 +75,7 @@
                 <p class="text-xs font-light">CMS</p>
                 </Link>
             </div>
-            <div class="grid md:grid-cols-2 gap-2 md:gap-10">
+            <!-- <div class="grid md:grid-cols-2 gap-2 md:gap-10">
                 <div>
                     <h1
                         class="mb-4 text-sm font-medium tracking-tight leading-none text-gray-100 md:text-base lg:text-lg dark:text-white">
@@ -98,7 +98,7 @@
                             :src="$page.props.app_url + 'storage/images/ecommerce-image.jpg'" />
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 </template>
