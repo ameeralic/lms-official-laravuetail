@@ -1,10 +1,9 @@
 <template>
-    <Hero :projectName="'Blog Web Application'"
-        :projectDescription="'An Open source(MIT) blog web application built with VILT Stack.'"
+    <Hero :projectName="'CMS Tools'" :projectDescription="'An Open source(MIT) CMS Tool kit built with VILT Stack.'"
         :whatsNewText="'New LMS Project Available in LaraVueTail'" :whatsNewLink="'https://laravuetail.com/'"
-        :projectGitRepoLink="'https://github.com/LaraVueTail/blog-laravel-vue-tailwind-inertia-VILT-Stack.git'">
+        :projectGitRepoLink="'https://github.com/LaraVueTail/CMS-demo'">
     </Hero>
-    <WatchVideoVue></WatchVideoVue>
+    <!-- <WatchVideoVue></WatchVideoVue> -->
     <WhatIsThis></WhatIsThis>
     <!-- <Posts :noColumn="2" :heading="'Blog Posts'" :subHeading="'Checkout our sample posts.'" :posts="posts"></Posts> -->
 </template>

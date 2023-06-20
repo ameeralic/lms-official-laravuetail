@@ -3,7 +3,7 @@
         <nav class="bg-zinc-900 border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
             <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                 <a href="https://laravuetail.com" class="flex items-center" target="_blank">
-                    <img class="h-8 w-auto mr-3" :src="$page.props.app_url + 'storage/images/blog-logo.svg'" alt="" />
+                    <img class="h-8 w-auto mr-3" :src="$page.props.app_url + 'storage/images/cms-logo.svg'" alt="" />
                     <p class="text-sm text-gray-100 font-poppins">
                         <span class="text-[#ff2d20]">Lara</span><span class="text-[#41b883]">Vue</span><span
                             class="text-[#38bdf8]">Tail</span>
@@ -47,13 +47,13 @@
                                 class="block py-2 pr-4 pl-3 text-gray-300 hover:text-vue border-b border-gray-100 lg:border-0 lg:p-0 cursor-pointer"
                                 :class="{ 'text-tailwind': $page.url === '/' }" aria-current="page">Home</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <Link :href="projectDocsLink"
                                 class="block py-2 pr-4 pl-3 text-gray-300 hover:text-vue border-b border-gray-100 lg:border-0 lg:p-0 cursor-pointer"
                                 :class="{
                                     'text-tailwind': $page.url === '/docs',
                                 }">Docs</Link>
-                        </li>
+                        </li> -->
                         <li>
                             <a :href="projectGithubRepo" target="_blank"
                                 class="flex items-center gap-2 py-2 pr-4 pl-3 text-gray-300 hover:text-vue border-b border-gray-100 lg:border-0 lg:p-0 cursor-pointer fill-gray-300 hover:fill-vue">
