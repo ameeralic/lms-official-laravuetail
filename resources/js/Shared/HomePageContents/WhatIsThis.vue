@@ -77,9 +77,10 @@
                 </a>
                 <a href="http://dashboard.laravuetail.com" target="_blank"
                     class="grid place-content-center justify-items-center text-sm md:text-sm font-medium text-gray-100 rounded-2xl w-32 h-32 border border-[#41b883]/10 hover:bg-black/50 hover:shadow-[#38bdf8] hover:border-[#38bdf8] hover:border-2 shadow-lg hover:shadow-xl shadow-[#41b883] bg-black/30">
-                    <img class="w-10 h-10 mr-2" :src="$page.props.app_url + 'storage/images/cms-logo.svg'" alt="logo" />
+                    <img class="w-10 h-10 mr-2" :src="$page.props.app_url + 'storage/images/dashboard-logo.svg'"
+                        alt="logo" />
                     LVTDashboard
-                    <p class="text-xs font-light">CMS</p>
+                    <p class="text-xs font-light">Dashboard</p>
                 </a>
             </div>
             <!-- <div class="grid md:grid-cols-2 gap-2 md:gap-10">

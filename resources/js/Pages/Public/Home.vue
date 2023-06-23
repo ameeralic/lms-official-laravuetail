@@ -3,7 +3,7 @@
         :whatsNewText="'New LMS Project Available in LaraVueTail'" :whatsNewLink="'https://laravuetail.com/'"
         :projectGitRepoLink="'https://github.com/LaraVueTail/dashboard-laravel-vue-tailwind-inertia-VILT-Stack'">
     </Hero>
-    <!-- <WatchVideoVue></WatchVideoVue> -->
+    <WatchVideoVue></WatchVideoVue>
     <WhatIsThis></WhatIsThis>
     <!-- <Posts :noColumn="2" :heading="'Blog Posts'" :subHeading="'Checkout our sample posts.'" :posts="posts"></Posts> -->
 </template>
