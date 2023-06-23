@@ -1,6 +1,6 @@
 <template>
     <Head>
-        <title>Blog web application</title>
+        <title>Dashboard kit</title>
         <meta name="description"
             content="LaraVueTail is a library of open source web applications built with Laravel, vue and Tailwind CSS. This is an ecommerce website built with VILT Stack" />
     </Head>
@@ -13,7 +13,7 @@
         <div class="relative px-4 py-10 max-w-3xl">
             <div class="min-h-48">
                 <p class="text-xl md:text-2xl text-zinc-100 font-poppins mb-5">
-                    Blog web application
+                    Dashboard kit
                 </p>
                 <div class="mb-5">
                     <p class="text-zinc-100 mb-1 font-medium font-poppins text-sm">
@@ -45,7 +45,7 @@
                     </p>
 
                     <p class="text-sm text-zinc-100 font-poppins font-light">
-                        This project is a Blog web application in VILT Stack.
+                        This project is a dashboard kit in VILT Stack.
                     </p>
                 </div>
 
@@ -54,9 +54,11 @@
                         Features :
                     </p>
                     <ul class="list-disc text-sm text-zinc-100 font-poppins font-light pl-5 mb-5">
-                        <li>Login for admin</li>
-                        <li>CRUD posts</li>
-                        <li>CRUD categories</li>
+                        <li>Login/register for admin/user</li>
+                        <li>Admin dashboard</li>
+                        <li>User dashboard</li>
+                        <li>Notification</li>
+                        <li>CRUD users</li>
                     </ul>
                 </div>
 
@@ -64,7 +66,7 @@
                     <p class="text-zinc-100 mb-3 font-medium font-poppins text-sm">
                         Download:
                     </p>
-                    <a href="https://github.com/LaraVueTail/blog-laravel-vue-tailwind-inertia-VILT-Stack.git"
+                    <a href="https://github.com/LaraVueTail/dashboard-laravel-vue-tailwind-inertia-VILT-Stack"
                         target="_blank"
                         class="inline-flex cursor-pointer shadow-xl shadow-[#41b883]/40 hover:shadow-[#38bdf8]/90 justify-center items-center py-3 px-4 text-sm font-medium text-center text-white rounded-xl bg-vue hover:bg-tailwind focus:ring-4 focus:ring-primary-300">
                         Github Repository

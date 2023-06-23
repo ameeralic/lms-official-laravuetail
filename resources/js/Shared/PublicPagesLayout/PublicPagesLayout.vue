@@ -1,6 +1,7 @@
 <template>
-    <Header :projectName="'LVTCMS Tools'" :projectDocsLink="'/docs'"
-        :projectGithubRepo="'https://github.com/LaraVueTail/CMS-demo'"></Header>
+    <Header :projectName="'LVTDashboard'" :projectDocsLink="'/docs'"
+        :projectGithubRepo="'https://github.com/LaraVueTail/dashboard-laravel-vue-tailwind-inertia-VILT-Stack.git'">
+    </Header>
     <div class="max-w-4xl mx-auto">
         <slot></slot>
 

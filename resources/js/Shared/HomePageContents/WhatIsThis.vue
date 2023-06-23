@@ -50,30 +50,37 @@
                 Current Projects (Last Updated: 14/06/2023):
             </p>
             <div class="grid grid-cols-2 md:grid-cols-6 mb-10 place-content-center w-fit mx-auto gap-10">
-                <Link href="#"
+                <a href="http://lms.laravuetail.com" target="_blank"
                     class="grid place-content-center justify-items-center text-sm md:text-sm font-medium text-gray-100 rounded-2xl w-32 h-32 border border-[#41b883]/10 hover:bg-black/50 hover:shadow-[#38bdf8] hover:border-[#38bdf8] hover:border-2 shadow-lg hover:shadow-xl shadow-[#41b883] bg-black/30">
-                <img class="w-10 h-10 mr-2" :src="$page.props.app_url + 'storage/images/lms-logo.svg'" alt="logo" />
-                LVTLearn
-                <p class="text-xs font-light">LMS</p>
-                </Link>
-                <Link href="#"
+                    <img class="w-10 h-10 mr-2" :src="$page.props.app_url + 'storage/images/lms-logo.svg'" alt="logo" />
+                    LVTLearn
+                    <p class="text-xs font-light">LMS</p>
+                </a>
+                <a href="http://ecommerce.laravuetail.com" target="_blank"
                     class="grid place-content-center justify-items-center text-sm md:text-sm font-medium text-gray-100 rounded-2xl w-32 h-32 border border-[#41b883]/10 hover:bg-black/50 hover:shadow-[#38bdf8] hover:border-[#38bdf8] hover:border-2 shadow-lg hover:shadow-xl shadow-[#41b883] bg-black/30">
-                <img class="w-10 h-10 mr-2" :src="$page.props.app_url + 'storage/images/ecommerce-logo.svg'" alt="logo" />
-                LVTShop
-                <p class="text-xs font-light">ecommerce</p>
-                </Link>
-                <Link href="#"
+                    <img class="w-10 h-10 mr-2" :src="$page.props.app_url + 'storage/images/ecommerce-logo.svg'"
+                        alt="logo" />
+                    LVTShop
+                    <p class="text-xs font-light">ecommerce</p>
+                </a>
+                <a href="http://blog.laravuetail.com" target="_blank"
                     class="grid place-content-center justify-items-center text-sm md:text-sm font-medium text-gray-100 rounded-2xl w-32 h-32 border border-[#41b883]/10 hover:bg-black/50 hover:shadow-[#38bdf8] hover:border-[#38bdf8] hover:border-2 shadow-lg hover:shadow-xl shadow-[#41b883] bg-black/30">
-                <img class="w-10 h-10 mr-2" :src="$page.props.app_url + 'storage/images/blog-logo.svg'" alt="logo" />
-                LVTBlog
-                <p class="text-xs font-light">blog</p>
-                </Link>
-                <Link href="#"
+                    <img class="w-10 h-10 mr-2" :src="$page.props.app_url + 'storage/images/blog-logo.svg'" alt="logo" />
+                    LVTBlog
+                    <p class="text-xs font-light">blog</p>
+                </a>
+                <a href="http://cms.laravuetail.com" target="_blank"
                     class="grid place-content-center justify-items-center text-sm md:text-sm font-medium text-gray-100 rounded-2xl w-32 h-32 border border-[#41b883]/10 hover:bg-black/50 hover:shadow-[#38bdf8] hover:border-[#38bdf8] hover:border-2 shadow-lg hover:shadow-xl shadow-[#41b883] bg-black/30">
-                <img class="w-10 h-10 mr-2" :src="$page.props.app_url + 'storage/images/cms-logo.svg'" alt="logo" />
-                LVTCMS Tools
-                <p class="text-xs font-light">CMS</p>
-                </Link>
+                    <img class="w-10 h-10 mr-2" :src="$page.props.app_url + 'storage/images/cms-logo.svg'" alt="logo" />
+                    LVTCMS Tools
+                    <p class="text-xs font-light">CMS</p>
+                </a>
+                <a href="http://dashboard.laravuetail.com" target="_blank"
+                    class="grid place-content-center justify-items-center text-sm md:text-sm font-medium text-gray-100 rounded-2xl w-32 h-32 border border-[#41b883]/10 hover:bg-black/50 hover:shadow-[#38bdf8] hover:border-[#38bdf8] hover:border-2 shadow-lg hover:shadow-xl shadow-[#41b883] bg-black/30">
+                    <img class="w-10 h-10 mr-2" :src="$page.props.app_url + 'storage/images/cms-logo.svg'" alt="logo" />
+                    LVTDashboard
+                    <p class="text-xs font-light">CMS</p>
+                </a>
             </div>
             <!-- <div class="grid md:grid-cols-2 gap-2 md:gap-10">
                 <div>

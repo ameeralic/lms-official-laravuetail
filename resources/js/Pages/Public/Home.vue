@@ -1,7 +1,7 @@
 <template>
-    <Hero :projectName="'CMS Tools'" :projectDescription="'An Open source(MIT) CMS Tool kit built with VILT Stack.'"
+    <Hero :projectName="'Dashboard'" :projectDescription="'An Open source(MIT) Dashboard kit built with VILT Stack.'"
         :whatsNewText="'New LMS Project Available in LaraVueTail'" :whatsNewLink="'https://laravuetail.com/'"
-        :projectGitRepoLink="'https://github.com/LaraVueTail/CMS-demo'">
+        :projectGitRepoLink="'https://github.com/LaraVueTail/dashboard-laravel-vue-tailwind-inertia-VILT-Stack'">
     </Hero>
     <!-- <WatchVideoVue></WatchVideoVue> -->
     <WhatIsThis></WhatIsThis>
