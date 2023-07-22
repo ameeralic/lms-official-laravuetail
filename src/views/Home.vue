@@ -1,6 +1,6 @@
 <template>
     <PageLayout>
-        <Hero :projectName="projectName" :projectDescription="projectDescription"
+        <Hero :projectName="projectName" :projectDescription="projectDescription" :projectStack="projectStack"
         :whatsNewText="'New LMS Project Available in LaraVueTail'" :whatsNewLink="'https://laravuetail.com/'"
         :projectGitRepoLink="'https://github.com/LaraVueTail/Restaurant-Review-Generator-OpenAI-LaravelAPI-Vue-Tailwind'">
     </Hero>
@@ -20,7 +20,8 @@ export default {
         return {
             projectName: import.meta.env.VITE_PROJECT_NAME,
             projectDescription: import.meta.env.VITE_PROJECT_DESCRIPTION,
-            projectGitRepoLink: import.meta.env.VITE_PROJECT_GIT_REPO_LINK
+            projectGitRepoLink: import.meta.env.VITE_PROJECT_GIT_REPO_LINK,
+            projectStack:import.meta.env.VITE_PROJECT_STACK
         }
     },
 }

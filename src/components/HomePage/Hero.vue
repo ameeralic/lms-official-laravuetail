@@ -39,32 +39,32 @@
             <p class="mb-4 text-sm font-normal text-gray-300 sm:px-16 xl:px-48 dark:text-gray-400">
                 {{ projectDescription }}
             </p>
-            <div class="grid grid-cols-3 mb-10 w-fit mx-auto place-content-start gap-y-4 justify-items-start">
-                <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer"
+            <div class="grid mb-10 w-fit mx-auto place-content-start gap-y-4 justify-items-start" :class="{'grid-cols-3 justify-items-center' : projectStack.length === 3,'grid-cols-2 gap-x-8':projectStack.length === 4}">
+                <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer" v-if="projectStack.includes('L')"
                     class="flex justify-start text-gray-300 gap-1 text-sm md:text-base items-center w-fit">
                     <img src="https://asset.brandfetch.io/ide68-31CH/idhaVMa0Af.svg" alt="" class="h-4 w-auto" />
                     <p>Laravel</p>
                 </a>
 
-                <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer"
+                <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer" v-if="projectStack.includes('V')"
                     class="flex justify-start text-gray-300 gap-1 text-sm md:text-base items-center">
                     <img src="https://asset.brandfetch.io/idT-7aLCAj/idYSAxBM8n.svg" alt="" class="h-3 w-auto" />
                     <p>Vue.js</p>
                 </a>
 
                 <a href="https://tailwindcss.com/
-                    " target="_blank" rel="noopener noreferrer"
+                    " target="_blank" rel="noopener noreferrer" v-if="projectStack.includes('T')"
                     class="flex justify-start text-gray-300 gap-1 text-sm md:text-base items-center">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt=""
                         class="h-4 w-auto" />
                     <p>TailwindCSS</p>
                 </a>
 
-                <!-- <a href="https://inertiajs.com/" target="_blank" rel="noopener noreferrer"
+                <a href="https://inertiajs.com/" target="_blank" rel="noopener noreferrer" v-if="projectStack.includes('I')"
                     class="flex justify-start text-gray-300 gap-1 text-sm md:text-base items-center">
                     <img src="https://asset.brandfetch.io/idGjvMIqVt/idd9HKmA9r.jpeg" alt="" class="h-4 w-auto" />
                     <p>Inertia.js</p>
-                </a> -->
+                </a>
             </div>
             <div class="flex justify-center mb-8 lg:mb-16 gap-4">
                 <a href="https://platform.openai.com/docs/introduction" target="_blank"
@@ -99,6 +99,7 @@ export default {
         "projectStack",
         "projectDocsLink",
         "projectGitRepoLink",
+        "projectStack"
     ],
     data() {
         return {};
