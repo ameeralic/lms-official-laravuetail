@@ -25,11 +25,6 @@
 </template>
 <script>
 export default {
-    data() {
-        return {
-            projectDemoVideo: import.meta.env.VITE_PROJECT_DEMO_VIDEO,
-            projectDemoLink: import.meta.env.VITE_PROJECT_DEMO_LINK
-        }
-    },
+    props: ['projectDemoLink', 'projectDemoVideo'],
 }
 </script>

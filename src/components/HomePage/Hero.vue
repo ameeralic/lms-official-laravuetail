@@ -24,10 +24,10 @@
                     </h1>
                 </div>
                 <div class="border-l pl-10">
-                    <img :src="$route.meta.siteUrl + '/assets/logos/lvt-openai-logo.svg'" alt=""
+                    <img :src="$route.meta.siteUrl + `/assets/logos/${projectLogo}`" alt=""
                         class="h-10 w-10 md:h-18 md:w-18 mx-auto" />
                     <h1 class="text-sm tracking-tight leading-none text-gray-200 md:text-sm py-2 font-medium">
-                        LVTOpenAI
+                        {{ projectName }}
                     </h1>
                 </div>
             </div>
@@ -39,7 +39,8 @@
             <p class="mb-4 text-sm font-normal text-gray-300 sm:px-16 xl:px-48 dark:text-gray-400">
                 {{ projectDescription }}
             </p>
-            <div class="grid mb-10 w-fit mx-auto place-content-start gap-y-4 justify-items-start" :class="{'grid-cols-3 justify-items-center' : projectStack.length === 3,'grid-cols-2 gap-x-8':projectStack.length === 4}">
+            <div class="grid mb-10 w-fit mx-auto place-content-start gap-y-4 justify-items-start"
+                :class="{ 'grid-cols-3 justify-items-center': projectStack.length === 3, 'grid-cols-2 gap-x-8': projectStack.length === 4 }">
                 <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer" v-if="projectStack.includes('L')"
                     class="flex justify-start text-gray-300 gap-1 text-sm md:text-base items-center w-fit">
                     <img src="https://asset.brandfetch.io/ide68-31CH/idhaVMa0Af.svg" alt="" class="h-4 w-auto" />
@@ -67,15 +68,16 @@
                 </a>
             </div>
             <div class="flex justify-center mb-8 lg:mb-16 gap-4">
-                <a href="https://platform.openai.com/docs/introduction" target="_blank"
+                <RouterLink to="/docs" target="_blank"
                     class="inline-flex cursor-pointer shadow-xl shadow-[#41b883]/40 hover:shadow-[#38bdf8]/90 justify-center items-center py-3 px-4 text-sm font-medium text-center text-white rounded-xl bg-vue hover:bg-tailwind focus:ring-4 focus:ring-primary-300">
-                Visit Docs
-                <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                        clip-rule="evenodd"></path>
-                </svg>
-                </a>
+                    Visit Docs
+                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </RouterLink>
                 <a :href="projectGitRepoLink" target="_blank"
                     class="inline-flex cursor-pointer shadow-xl hover:shadow-[#38bdf8]/90 shadow-gray-100/50 justify-center items-center py-3 px-4 text-sm font-medium text-center text-gray-800 rounded-xl bg-white hover:bg-tailwind focus:ring-4 focus:ring-primary-300">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="w-5 h-5 mr-3 text-gray-300">
@@ -95,6 +97,7 @@ export default {
         "whatsNewText",
         "whatsNewLink",
         "projectName",
+        "projectLogo",
         "projectDescription",
         "projectStack",
         "projectDocsLink",
@@ -105,4 +108,7 @@ export default {
         return {};
     },
 };
+</script>
+<script setup>
+import { RouterLink } from 'vue-router';
 </script>
