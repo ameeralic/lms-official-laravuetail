@@ -1,7 +1,7 @@
 <template>
     <PageLayout>
         <Hero :projectName="projectName" :projectLogo="projectLogo" :projectDescription="projectDescription"
-            :projectStack="projectStack" :whatsNewText="'New LMS Project Available in LaraVueTail'"
+            :projectStack="projectStack" :whatsNewText="'New OpenAI Project Available in LaraVueTail'"
             :whatsNewLink="'https://laravuetail.com/'"
             :projectGitRepoLink="'https://github.com/LaraVueTail/Restaurant-Review-Generator-OpenAI-LaravelAPI-Vue-Tailwind'">
         </Hero>
