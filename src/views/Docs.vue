@@ -9,7 +9,7 @@
             <div class="relative px-4 py-10 max-w-3xl">
                 <div class="min-h-48">
                     <p class="text-xl md:text-2xl text-zinc-100 font-poppins mb-5">
-                        Dashboard kit
+                        Learning Management System (LMS) Project
                     </p>
                     <div class="mb-5">
                         <p class="text-zinc-100 mb-1 font-medium font-poppins text-sm">
@@ -44,7 +44,8 @@
                         </p>
 
                         <p class="text-sm text-zinc-100 font-poppins font-light">
-                            This project is a dashboard kit in VILT Stack.
+                            This project is a Learning Management System (LMS) website build in VILT(Vue, Inertia, Laravel,
+                            Tailwind) Stack.
                         </p>
                     </div>
 
@@ -53,11 +54,18 @@
                             Features :
                         </p>
                         <ul class="list-disc text-sm text-zinc-100 font-poppins font-light pl-5 mb-5">
-                            <li>Login/register for admin/user</li>
-                            <li>Admin dashboard</li>
-                            <li>User dashboard</li>
-                            <li>Notification</li>
-                            <li>CRUD users</li>
+                            <li>Student/Teacher Accounts (Sign in/Register/Student and Teacher dashboard)</li>
+                            <li>Admin dashboard and controls</li>
+                            <ul class="list-disc pl-5">
+                                <li>CRUD Users</li>
+                                <li>CRUD Teachers</li>
+                                <li>CRUD Courses</li>
+                                <li>CRUD Categories</li>
+                                <li>CRUD Students</li>
+                            </ul>
+                            <li>Students can enroll in to courses.</li>
+                            <li>A Teacher can be assigned to each course.</li>
+                            <li>Teacher can edit assigned courses and it's chapters.</li>
                         </ul>
                     </div>
 
