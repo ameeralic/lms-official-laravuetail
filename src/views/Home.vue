@@ -2,8 +2,7 @@
     <PageLayout>
         <Hero :projectName="projectName" :projectLogo="projectLogo" :projectDescription="projectDescription"
             :projectStack="projectStack" :whatsNewText="'New OpenAI Project Available in LaraVueTail'"
-            :whatsNewLink="'https://laravuetail.com/'"
-            :projectGitRepoLink="'https://github.com/LaraVueTail/Restaurant-Review-Generator-OpenAI-LaravelAPI-Vue-Tailwind'">
+            :whatsNewLink="'https://laravuetail.com/'" :projectGitRepoLink="projectGitRepoLink">
         </Hero>
         <WatchVideo :projectDemoLink="projectDemoLink" :projectDemoVideo="projectDemoVideo"></WatchVideo>
         <WhatIsThis></WhatIsThis>
